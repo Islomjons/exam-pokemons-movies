@@ -65,7 +65,7 @@ function renderArray(array) {
         
         let newP3  = document.createElement("p");
         newLi.appendChild(newP3);
-        newP3.classList.add("text4");
+        newP3.classList.add("text3");
         newP3.textContent = item.weight;
         
         if(item.name){
