@@ -80,7 +80,6 @@ function renderArray(array) {
             newP3.textContent = item.Title;
             newP5.textContent = item.imdbRating;
 
-
             let newP7 = document.createElement("p");
             newLi.appendChild(newP7);
             newP7.textContent = item.Year
@@ -102,8 +101,6 @@ function renderArray(array) {
             newA4.href = "https://youtube.com"
             newA4.classList.add("link2")
             newLi.appendChild(newA4);
-
-
         }
     }
 }
